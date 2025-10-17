@@ -1,0 +1,94 @@
+        body {
+            font-family: Arial;
+            background: #f9f9f9;
+            margin: 40px;
+        }
+
+        .form-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 320px;
+            margin-bottom: 30px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        input,
+        select,
+        button {
+            width: 100%;
+            margin-top: 10px;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background: white;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background: #333;
+            color: white;
+        }
+
+        .mensaje {
+            background: #dff0d8;
+            color: #3c763d;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .btn-editar {
+            color: #007bff;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        .btn-eliminar {
+            color: #dc3545;
+            text-decoration: none;
+        }
+
+        .btn-editar:hover,
+        .btn-eliminar:hover {
+            text-decoration: underline;
+        }
+
+        #inicio {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .estado-limpia {
+            color: green;
+            font-weight: bold;
+        }
+
+        .estado-sucia {
+            color: red;
+            font-weight: bold;
+        }
+
+        .estado-en-limpieza {
+            color: orange;
+            font-weight: bold;
+        }
