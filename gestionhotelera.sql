@@ -83,3 +83,5 @@ END$$
 
 DELIMITER ;
 
+ALTER TABLE Reservas
+DROP CONSTRAINT chk_fecha;
