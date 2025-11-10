@@ -43,6 +43,16 @@ CREATE TABLE Tareas_Mantenimiento (
     FOREIGN KEY (id_habitacion) REFERENCES Habitaciones(id_habitacion)
 );
 
+CREATE TABLE Cuentas (
+	id_cuenta INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(255) NOT NULL,
+    contrasena VARCHAR(255)
+);
+
+insert into Cuentas (nombre, contrasena) values 
+('admin', '1234'),
+('loren', 'loren');
+
 DELIMITER $$
 
 CREATE TRIGGER verificar_reserva BEFORE INSERT ON Reservas
